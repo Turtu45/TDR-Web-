@@ -1,0 +1,100 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1.5px solid rgb(220, 220, 220);
+}
+.navegador-logo {
+  height: 80px;
+  width: 200px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.navegador-link {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.link-reserves {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #6e6d6d;
+  width: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+.link-reserves:hover {
+  background-color: #287092;
+}
+.link-tancar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #575757;
+  width: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+.link-tancar:hover {
+  background-color: #287092;
+}
+.reserves-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+.reserves-container-cardcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.card > a {
+  text-decoration: none;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+img {
+  width: auto;
+  height: 300px;
+
+  border-bottom: 1px solid #ddd;
+}
+.card-room {
+  padding: 15px;
+  text-align: center;
+}
+h4 {
+  margin: 0;
+  color: #333;
+}
